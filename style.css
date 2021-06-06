@@ -50,7 +50,7 @@ nav-bar-nav li{
     bottom: initial! important;
 }
 .carousel-caption h5{
-    color: rgb(99, 15, 15);
+    color: rgb(82, 5, 41);
     font-size: 30px;
     text-align: center;
 }
@@ -132,7 +132,7 @@ nav-bar-nav li{
 .services .col-md-3:hover{
     background: #073347;
     cursor: pointer;
-    transition: 0.9s;
+    transition: 0.8s;
 }
 /*---------Get In Touch---------*/
 #contact{
@@ -199,7 +199,7 @@ h4{
 
 
 h5{
-    animation: type 2s steps(22);
+    animation: type 2s steps(21);
     overflow: hidden;
     white-space: nowrap;
     border-right: 0px solid white;
