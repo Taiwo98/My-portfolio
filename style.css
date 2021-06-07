@@ -199,18 +199,18 @@ h4{
 
 
 h5{
-    animation: type 2s steps(21);
+    animation: type 2s steps(18);
     overflow: hidden;
     white-space: nowrap;
     border-right: 0px solid white;
-    width: 19ch;
+    width: 17ch;
 }
 @keyframes type {
     0% {
     width: 0ch;
     }
     100% {
-        width: 19ch;
+        width: 17ch;
     }
 }
 
@@ -249,8 +249,47 @@ h5{
         -webkit-transform: translateY(0%);
     }
 }
+    /*--Slide Up for h6 ---*/
+h6{
+    animation-name: slideUp;
+    -webkit-animation-name: slideUp;
+    animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    animation-timing-function: ease;
+    -webkit-animation-timing-function: ease;
+    visibility: visible !important;
+    
+}
 
-@-webkit-keyframes slideUp{
+.carousel-caption h6{
+    color: rgb(82, 5, 41);
+    font-size: 35px;
+    text-align: center;
+}
+
+
+@keyframes h6{
+    0%{
+        -webkit-transform: translateY(100%);
+    }
+    50%{
+        -webkit-transform: translateY(-8%);
+    }
+    65%{
+        -webkit-transform: translateY(4%);
+    }
+    80%{
+        -webkit-transform: translateY(-4%);
+    }
+    95%{
+        -webkit-transform: translateY(2%);
+    }
+    100%{
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes h6{
         0%{
             -webkit-transform: translateY(100%);
         }
