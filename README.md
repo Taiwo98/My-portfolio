@@ -1,1 +1,1 @@
-# My-portfolio entails vital informations about myself and my skills.
+# My-portfolio website entails vital informations about myself and my skills.
